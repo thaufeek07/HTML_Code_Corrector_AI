@@ -1,0 +1,333 @@
+bad_code,good_code
+"<html>
+<head>
+    <title>About Us</title>
+</head>
+<body>
+    <h1>About Our Company</h1>
+    <p>We are a leading company in AI solutions.</p>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>About Us</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>About Our Company</h1>
+    <p>We are dedicated to providing the best service possible.</p>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div>
+        <h1>Contact Us</h1>
+        <form action=""/submit-contact"">
+            <b><i>Please fill out the form</b></i>
+            <label>Name:</label>
+            <input type=""text"" name=""name"">
+            <label>Email:</label>
+            <input type=""email"" name=""email"">
+            <button type=""submit"">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Contact Us</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action=""/submit"" method=""POST"">
+        <label for=""name"">Name:</label>
+        <input type=""text"" id=""name"" name=""name"" required>
+        <br>
+        <label for=""email"">Email:</label>
+        <input type=""email"" id=""email"" name=""email"" required>
+        <br>
+        <label for=""message"">Message:</label>
+        <textarea id=""message"" name=""message"" rows=""5"" required></textarea>
+        <br>
+        <button type=""submit"">Send</button>
+    </form>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Page</title>
+</head>
+<body>
+    <h1>Welcome to Our Custom Page</h1>
+    <customTag>This is a custom tag, which is not valid in HTML5.</customTag>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Custom Page</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>Custom Content</h1>
+    <p>This is a custom HTML page with proper coding practices.</p>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id=""header"">
+        <h1>Welcome to the Dashboard</h1>
+    </div>
+    <div id=""header"">
+        <p>This is the main header.</p>
+    </div>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Dashboard</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <nav>
+        <ul>
+            <li><a href=""profile.html"">Profile</a></li>
+            <li><a href=""settings.html"">Settings</a></li>
+            <li><a href=""logout.html"">Logout</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form>
+        <label>Your Feedback:</label>
+        <textarea></textarea>
+        <button type=""button"" onclick=""alert('Thank you for your feedback!')"">Submit</button>
+    </form>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Feedback Form</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>Feedback</h1>
+    <form action=""/submit"" method=""POST"">
+        <label for=""feedback"">Your Feedback:</label>
+        <textarea id=""feedback"" name=""feedback"" rows=""5"" required></textarea>
+        <br>
+        <button type=""submit"">Submit</button>
+    </form>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+</head>
+<body>
+    <h1>Photo Gallery</h1>
+    <img src=""photo1.jpg"">
+    <img src=""photo2.jpg"">
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Gallery Page</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div>
+        <img src=""image1.jpg"" alt=""Description of Image 1"">
+        <img src=""image2.jpg"" alt=""Description of Image 2"">
+        <img src=""image3.jpg"" alt=""Description of Image 3"">
+    </div>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <form action=""/submit-login"">
+            <label>Username</label>
+            <input type=""text"" name=""username"">
+            <label>Password</label>
+            <input type=""password"" name=""password"">
+            <button type=""submit"">Login</button>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Login Page</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <form action=""/submit"" method=""POST"">
+        <label for=""username"">Username:</label>
+        <input type=""text"" id=""username"" name=""username"" required>
+        <br>
+        <label for=""password"">Password:</label>
+        <input type=""password"" id=""password"" name=""password"" required>
+        <br>
+        <button type=""submit"">Login</button>
+    </form>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+</head>
+<body>
+    <h1>Our Products</h1>
+    <font color=""red"">This is a discounted item!</font>
+    <font size=""5"">Buy now!</font>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Product Page</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>Product Details</h1>
+    <img src=""product.jpg"" alt=""Product Image"">
+    <p>Product description goes here.</p>
+    <button>Add to Cart</button>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <h1 style=""color: blue;"">User Profile</h1>
+    <div style=""font-size: 20px; margin: 10px;"">
+        Name: John Doe
+    </div>
+    <div style=""font-size: 20px; margin: 10px;"">
+        Age: 30
+    </div>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Profile Page</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>User Profile</h1>
+    <img src=""profile.jpg"" alt=""User Profile Picture"">
+    <p>Welcome to your profile page!</p>
+</body>
+</html>
+    "
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form action=/register method=post>
+        <label>Username:</label>
+        <input type=text name=username>
+        <label>Password:</label>
+        <input type=password name=password>
+        <button type=submit>Register</button>
+    </form>
+</body>
+</html>
+","
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Registration Form</title>
+    <link rel=""stylesheet"" href=""styles.css"">
+</head>
+<body>
+    <h1>Register</h1>
+    <form action=""/submit"" method=""POST"">
+        <label for=""first_name"">First Name:</label>
+        <input type=""text"" id=""first_name"" name=""first_name"" required>
+        <br>
+        <label for=""last_name"">Last Name:</label>
+        <input type=""text"" id=""last_name"" name=""last_name"" required>
+        <br>
+        <label for=""email"">Email:</label>
+        <input type=""email"" id=""email"" name=""email"" required>
+        <br>
+        <button type=""submit"">Register</button>
+    </form>
+</body>
+</html>
+    "
