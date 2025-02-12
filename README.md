@@ -56,5 +56,4 @@ If any further inputs or modifications are required, please let me know—I’d 
 ---
 
 **Author:** Mohamed Thaufeek\
-**Date:** [Insert Date]
 
